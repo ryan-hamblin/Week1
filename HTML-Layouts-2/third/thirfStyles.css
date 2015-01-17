@@ -9,12 +9,13 @@ html, body {
 }
 .menu_bar {
     height: 5%;
-    width: inherit;
+    width: 100%;
     background: #333333;
     display: flex;
     flex-flow: row | wrap;
     align-items: center;
     position: fixed;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -29,6 +30,7 @@ a {
   padding: 8% 5%;
   display: inline-flex;
   flex-wrap: wrap;
+  margin: 0;
   
 }
 .first_section {
@@ -42,6 +44,7 @@ a {
   width: 48%;
   height: 100%;
   margin: 8% 0 0 3%;
+  overflow: hidden;
 }
 .article_title {
   width: 100%;
