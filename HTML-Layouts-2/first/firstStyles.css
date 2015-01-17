@@ -1,0 +1,78 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.top {
+    display: flex;
+    width: 100%;
+    min-width: 200px;
+    height: 13%;
+    min-height: inherit;
+}
+.box {
+    width: 30%;
+    min-width: 60px;
+    height: 85%;
+    margin-left: 1%;
+}
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.black {
+    background: #111;
+}
+.topMiddle {
+    width: 100%;
+    min-width: 200px;
+    height: 33%;
+    min-height: inherit;
+    overflow: scroll;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.bottomMiddle {
+    width: 100%;
+    min-width: 200px;
+    height: 35%;
+    min-height: inherit;
+    display: flex;
+    margin-top: 2%;
+}
+.leftBM {
+    width: 33%;
+    min-width: 66px;
+    height: 100%;
+    margin-left: 1%;
+    
+}
+.rightBM {
+    width: 63%;
+    min-width: 132px;
+    height: 100%;
+}
+.bottom {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    min-width: 200px;
+    height: 13%;
+    margin-top: 2%;
+}
+.bl {
+    width: 65%;
+    min-width: 140px;
+    height: 100%;
+    margin-left: 1%;
+}
+.bml {
+    width: 5%;
+    min-width: 10px;
+    height: 100%;
+}
+.bmr {
+    width: 21%;
+    min-width: 32px;
+}

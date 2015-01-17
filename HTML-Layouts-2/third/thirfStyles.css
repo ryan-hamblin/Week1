@@ -1,0 +1,65 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+}
+.menu_bar {
+    height: 5%;
+    width: inherit;
+    background: #333333;
+    display: flex;
+    flex-flow: row | wrap;
+    align-items: center;
+    position: fixed;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.apple_link {
+    margin: 5%
+}
+.main_body {
+  height: 80%;
+  width: 100%;
+  padding: 8% 5%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  
+}
+.first_section {
+  width: 48%;
+  height: 100%;
+  margin: 8% 0 0 1%;
+  overflow: hidden
+}
+
+.second_section {
+  width: 48%;
+  height: 100%;
+  margin: 8% 0 0 3%;
+}
+.article_title {
+  width: 100%;
+  font-size: 2.5em;  
+}
+.article_pic {
+  height: 33%;
+  width: 100%;
+  background: url("puppy.JPG");
+  background-size: cover;
+}
+.article_text {
+  width: 100%;
+}
+.bottom_bar {
+  height: 8%;
+  background: #333333;
+  width: 100%;
+  color: #fff;
+}
+
