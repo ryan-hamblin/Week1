@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.top {
+  height: 15%;
+  min-height: 110px;
+  background: #D8D8D8;
+  
+}
+.blue_box {
+  height: 80px;
+  width: 80px;
+  background: #4A90E2;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+.text_box {
+  height: 21%;
+  margin: 2% 6%;
+  font-family: fantasy;
+  font-size: 1.25em;
+}
+.box {
+  height: 15%;
+}
+.blue {
+  background: #4A90E2;
+}
+.mint {
+  background: #50E3C2;
+}
+.green {
+  background: #B8E986;
+}
+.yellow {
+  background: #F8E71C;
+}

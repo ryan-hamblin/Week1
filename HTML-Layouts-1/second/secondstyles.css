@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.column1 {
+  height: 100%;
+  width: 33.33%;
+  background: #4A90E2;
+  float: left;
+}
+.column2 {
+  height: 100%;
+  width: 33.33%;
+  background: #50E3C2;
+  float: left;
+}
+.column3 {
+  height: 100%;
+  width: 33.33%;
+  background: #B8E986;
+  float: left;
+  display: flex;
+}
+.picture {
+  height: 20%;
+  width: 100%;
+  background: #D0021B no-repeat;
+  align-self: flex-end;
+  background-image: url(second.png);
+  background-size: cover;
+}

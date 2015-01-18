@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  min-width: 800px;
+  max-width: 1024px;
+  background: #D8D8D8;
+  margin: 0;
+}
+.menu_title {
+  height: 15%;
+  background: #444444;
+}
+.side_menu {
+  width: 15%;
+  height: 85%;
+}
+.left_menu {
+  
+  float: left;
+}
+.menu {
+  width: 70%;
+  height: 85%;
+  background: #fff;
+  margin: 0 auto;
+  float: left;
+}
+.menu_body {
+  height: 90%;
+}
+.menu_end {
+  height: 10%;
+  background: #444444;
+}
+.right_menu {
+  float: right;
+}
